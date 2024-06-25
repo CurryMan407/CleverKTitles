@@ -1,0 +1,16 @@
+name: CleverKTitles
+version: '${project.version}'
+main: org.curryman.cleverktitles.CleverKTitles
+api-version: '1.17'
+commands:
+  ckt:
+    description: CleverKTitles commands.
+    usage: /ckt help
+    permission: cleverktitles.use
+permissions:
+  cleverktitles.use:
+    description: Allows using CleverKTitles commands.
+    default: true
+  cleverktitles.reload:
+    description: Allows reloading the CleverKTitles plugin.
+    default: op

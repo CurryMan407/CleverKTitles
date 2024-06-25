@@ -1,0 +1,44 @@
+#--------------------
+#
+#Clever Kill Titles
+#
+#Made by CurryMan
+#
+#---------------------
+
+#Placeholders:
+#Only placeholder you need is %player% which is the name of the player killed
+
+title: "&c🗡"
+#The title message to be sent to the KILLER
+
+subtitle: "&a%player%"
+#The SUBtitle message to be sent to the KILLER
+
+duration: 5
+#How long the title and the subtitle should stay on the screen.
+
+#All the messages of the plugin
+messages:
+  enabled: "&eCKT has been enabled!"
+  #This is output to the console
+
+  reload: "&7[&6C&eK&6T&7] &7» &aCleverKTitles config reloaded!"
+  #When the plugin is reloaded
+
+  toggle_on: "&7[&6C&eK&6T&7] &7» &aKill titles enabled!"
+  #When a player toggles titles on
+
+  toggle_off: "&7[&6C&eK&6T&7] &7» &cKill titles disabled!"
+  #When a player toggles titles off
+
+  help:
+    - "&eCleverKTitles Commands:"
+    - "&7-------------------"
+    - "&7/&eckt toggle &7- &6Toggle kill titles on/off"
+    - "&7/&eckt reload &7- &6Reload the plugin configuration"
+    - "&7-------------------"
+  #Add as many as you want
+
+  invalid_command: "&7[&6C&eK&6T&7] &7» &4Invalid command"
+  #Invalid command usage
