@@ -1,4 +1,4 @@
-# CleverKTitles
+# CleverKTitles v1.1
 Ever wanted to display on screen messages to players when they get a kill?
 
 CleverKTitles makes that possible!
@@ -7,6 +7,7 @@ So far, when a player gets a kill, you can:
 
 - Display an on screen Title Message
 - Display an on screen subtitle Message
+- [NEW] Display action bar messages!
 
 The plugin recognises all kill types, including crystals and explosions, so this is a must for any crystal pvp server!
 
@@ -19,12 +20,13 @@ Features:
 - Reloadable! (/ckt reload)
 - Registers all kill types! (melee, fall, explosions, crystals, etc)
 - Made and tested for versions 1.17 through to 1.20.4
-- 
+- [NEW] Action bar messages!
+
 All current features are bug tested, but if you do find a bug, just DM me on discord: noodleman2839
 
 Features planned to be added:
 
-- Action Bar messages
+- Action Bar messages [ADDED!]
 - HEX Colour Code support
 - Enable and disabled worlds
 - Permission for toggling kill titles
